@@ -1,0 +1,328 @@
+@charset "UTF-8";
+/* --------------------------------------------- */
+/* ▼モバイルファースト (全環境に共通のデザイン) */
+/* --------------------------------------------- */
+html {
+  font-size: 62.5%;
+  font-family: 'Noto Sans JP', sans-serif;
+  color: #374149;
+}
+
+html body {
+  -webkit-font-feature-settings: "palt";
+          font-feature-settings: "palt";
+  font-size: 1.3rem;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html body .sp-container {
+  width: 100%;
+  background-color: #fff;
+  margin-bottom: 30px;
+}
+
+html body .sp-container .post-card {
+  margin: 0 auto;
+  width: 90%;
+  background-color: #fff;
+  -webkit-box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.1);
+  border-radius: 3px;
+}
+
+html body .sp-container .post-card__inner {
+  margin: 2%;
+  padding: 2%;
+}
+
+html body .sp-container .post-card__user-zone {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-bottom: 5%;
+  padding-top: 3%;
+}
+
+html body .sp-container .post-card__user-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+html body .sp-container .post-card__user-icon {
+  margin-right: 5%;
+  display: block;
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 30%;
+  height: auto;
+}
+
+html body .sp-container .post-card__user-name {
+  font-weight: bold;
+  letter-spacing: 0.1rem;
+  font-size: 1.6rem;
+  display: block;
+}
+
+html body .sp-container .post-card__post-place {
+  padding-top: 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+html body .sp-container .post-card__place-icon {
+  margin-right: 2%;
+}
+
+html body .sp-container .post-card__post-day {
+  color: #888888;
+}
+
+html body .sp-container .post-card__post-txt {
+  line-height: 2rem;
+}
+
+html body .sp-container .post-card__readmore--active {
+  padding-left: 1%;
+  color: #888888;
+  cursor: pointer;
+}
+
+html body .sp-container .post-card__img {
+  width: 100%;
+  height: auto;
+  margin: 2% 0;
+}
+
+html body .sp-container .post-card__tag-list {
+  padding: 3% 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+}
+
+html body .sp-container .post-card__tag-categories {
+  width: 100%;
+}
+
+html body .sp-container .post-card__tag-category--bus {
+  display: inline-block;
+  width: 22%;
+  max-width: 100%;
+  padding: 2.4% 0;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border-radius: 60px;
+  background-color: gray;
+  text-align: center;
+  vertical-align: top;
+  background-color: #D9E9F8;
+  color: #4462AB;
+}
+
+html body .sp-container .post-card__tag-category--env {
+  display: inline-block;
+  width: 22%;
+  max-width: 100%;
+  padding: 2.4% 0;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border-radius: 60px;
+  background-color: gray;
+  text-align: center;
+  vertical-align: top;
+  background-color: #DAF8E0;
+  color: #5C9A6B;
+}
+
+html body .sp-container .post-card__tag-category--gro {
+  display: inline-block;
+  width: 22%;
+  max-width: 100%;
+  padding: 2.4% 0;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border-radius: 60px;
+  background-color: gray;
+  text-align: center;
+  vertical-align: top;
+  background-color: #F7D9D9;
+  color: #DA4943;
+}
+
+html body .sp-container .post-card__tag-with {
+  display: inline;
+  text-align: right;
+}
+
+html body .sp-container .post-card__btns {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-bottom: 3%;
+}
+
+html body .sp-container .post-card__btn {
+  padding: 1%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-size: 1.2rem;
+  width: calc(100% / 3);
+  background: #FFFFFF;
+  border: 1px solid #C4C4C4;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.25);
+  border-radius: 3px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 1%;
+}
+
+html body .sp-container .post-card__btn:first-child {
+  margin-left: 0;
+}
+
+html body .sp-container .post-card__btn--good:hover {
+  color: #FF93BA;
+}
+
+html body .sp-container .post-card__btn--left-zone {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+html body .sp-container .post-card__icon {
+  width: 30%;
+  padding-left: 4%;
+}
+
+html body .sp-container .post-card__g {
+  width: 23px;
+  height: 23px;
+  padding-left: 4%;
+  stroke: #888;
+}
+
+html body .sp-container .post-card__g:hover {
+  stroke: #FF93BA;
+}
+
+/* スピーチバブル */
+
+
+
+.balloon5 {
+  width: 90%;
+  margin: 1.5em 0;
+  overflow: hidden;
+  color: #374149;
+}
+
+.inner {
+  display: flex;
+  
+}
+.reverse {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.balloon5 .faceicon {
+ width: 20%;
+ display: inline-block;
+}
+
+.balloon5 .faceicon img{
+  width: 100%;
+  height: auto;
+ 
+ 
+ 
+}
+
+.balloon5 .chatting {
+  width: 100%;
+  position: relative;
+}
+
+.says
+ {
+  display: inline-block;
+  margin: 5px 0 0 15px;
+  padding: 17px 13px;
+  border-radius: 12px;
+  background: #FFFADF;
+  line-height: 1.8;
+}
+
+.says:fir:before {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  top: 18px; 
+  left: -8px;
+  border: 15px solid transparent;
+  border-right: 15px solid #FFFADF;
+} 
+
+.says-reverse:after {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  top: 18px; 
+  right: -14px;
+  border: 15px solid transparent;
+  border-left: 15px solid #FFFADF;
+}
+
+
+
+
+.says p {
+  margin: 0;
+  padding: 0;
+}
+
+
+
+/* -------------------------------------------- */
+/* ▼タブレット用デザインとして付け足すデザイン */
+/* -------------------------------------------- */
+/* ------------------------------------ */
+/* ▼PC用デザインとして付け足すデザイン */
+/* ------------------------------------ */
+/*# sourceMappingURL=style.css.map */

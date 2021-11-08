@@ -1,0 +1,48 @@
+/* --------------------------------------------- */
+/* ▼モバイルファースト (全環境に共通のデザイン) */
+/* --------------------------------------------- */
+$PC: 768px;
+
+html {
+    font-size: 62.5%;
+    font-family: 'Noto Sans JP', sans-serif;
+    body {
+         font-size: 1.6rem;
+         box-sizing: border-box;
+         @mixin tag-category {
+                width: 115px;
+                height: 40px;
+                border-radius: 60px;
+        }
+        .sp-container {
+            width: 100%;
+            background-color: #fff;
+            margin-bottom: 30px;
+            .post-card {
+                margin: 0 auto;
+                width: 90%;
+            &__inner {
+                margin: 2%;
+            }   
+
+            }
+        }
+         
+    }
+}
+/* -------------------------------------------- */
+/* ▼タブレット用デザインとして付け足すデザイン */
+/* -------------------------------------------- */
+@media (min-width: ($PC)) {
+
+}
+/* ------------------------------------ */
+/* ▼PC用デザインとして付け足すデザイン */
+/* ------------------------------------ */
+@media (min-width: 1024px) {
+
+}
+
+
+
+

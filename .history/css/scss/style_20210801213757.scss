@@ -1,0 +1,95 @@
+/* --------------------------------------------- */
+/* ▼モバイルファースト (全環境に共通のデザイン) */
+/* --------------------------------------------- */
+$PC: 768px;
+
+html {
+    font-size: 62.5%;
+    font-family: 'Noto Sans JP', sans-serif;
+    color: #374149;
+    body {
+        font-feature-settings: "palt";
+         font-size: 1.3rem;
+         box-sizing: border-box;
+         @mixin tag-category {
+                width: 115px;
+                height: 40px;
+                border-radius: 60px;
+        }
+        .sp-container {
+            width: 100%;
+            background-color: #fff;
+            margin-bottom: 30px;
+            .post-card {
+                margin: 0 auto;
+                width: 90%;
+                
+                background-color: #fff;
+               box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.1);
+border-radius: 3px;
+            &__inner {
+                margin: 2%;
+                padding: 2%;
+
+            } 
+            &__user-zone {
+                display: flex;
+                justify-content: space-between;
+                padding-bottom: 10%;
+            }
+
+            &__user-info {
+                display: flex;
+                align-items: center;
+            }
+            &__user-icon {
+                margin-right: 2%;
+                display: block;
+                object-fit: cover;
+                 width: 30%;
+                 height: auto;
+
+            }
+          
+            &__user-name {
+                font-weight: bold;
+                letter-spacing: 0.1rem;
+                font-size: 1.6rem;
+                display: block;
+                
+            }
+            &__post-place {
+                padding-top: 5%;
+                display: flex;
+                align-items: center;
+            }
+            &__place-icon {
+                margin-right: 2%;
+            }
+            &__post-txt {
+               line-height: 2rem; 
+            }
+            &__readmore {
+                
+            }
+            }
+        }
+         
+    }
+}
+/* -------------------------------------------- */
+/* ▼タブレット用デザインとして付け足すデザイン */
+/* -------------------------------------------- */
+@media (min-width: ($PC)) {
+
+}
+/* ------------------------------------ */
+/* ▼PC用デザインとして付け足すデザイン */
+/* ------------------------------------ */
+@media (min-width: 1024px) {
+
+}
+
+
+
+
